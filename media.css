@@ -99,6 +99,9 @@ h2 {
         background-position: center;
         overflow: hidden;
         position: sticky;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #parant {
