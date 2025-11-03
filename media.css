@@ -1,0 +1,112 @@
+/* This Code Is For Responsive Design */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(95, 28, 167, 0.3)), url('WhatsApp\ Image\ 2025-10-28\ at\ 21.39.27_a76380fe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#parant {
+    background: linear-gradient(rgba(6, 6, 251, 0.5), rgba(19, 19, 19, 0.5));
+    padding: 100px;
+    border: 1px solid rgb(163, 205, 36);
+    box-shadow: 0 0 18px 5px rgb(90, 175, 6);
+    backdrop-filter: blur(0.8px);
+
+}
+
+h1 {
+    border: 1px solid rgb(121, 216, 32);
+    padding: 10px;
+    color: yellow;
+    backdrop-filter: blur(0.1px);
+    margin-top: -20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 8px 3px rgba(28, 198, 9, 0.489);
+}
+
+#Boy {
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid rgb(48, 6, 72);
+
+}
+
+#Girl {
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid rgb(48, 6, 72);
+}
+
+Button {
+    border: 1px solid rgb(121, 216, 32);
+    padding: 10px;
+    color: yellow;
+    backdrop-filter: blur(0.1px);
+    margin-top: -20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px 3px rgba(28, 198, 9, 0.489);
+    background-color: blue;
+}
+
+h2 {
+    border: 1px solid rgb(121, 216, 32);
+    padding: 10px;
+    color: yellow;
+    backdrop-filter: blur(0.1px);
+    margin-top: -20px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px 3px rgba(28, 198, 9, 0.489);
+}
+
+/* For Mobile Responsiveness */
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    body {
+        background: linear-gradient(rgb(255, 0, 0,0.3), rgb(0, 0, 00.3)), url('WhatsApp\ Image\ 2025-10-28\ at\ 21.42.57_f6780cfa.jpg');
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        position: sticky;
+    }
+
+    #parant {
+        background: linear-gradient(rgba(5, 146, 54, 0.3), rgba(19, 19, 19, 0.3));
+        padding: 40px;
+        border: 1px solid rgb(163, 205, 36);
+        box-shadow: 0 0 18px 5px rgb(108, 13, 233);
+        backdrop-filter: blur(0.8px);
+        position: sticky;
+    }
+}
+
+/* For Tablets And ipads */
+@media screen and (min-width:480px) and (max-width:768px) {
+    body {
+        background: linear-gradient(rgb(255, 0, 0,0.3), rgb(0, 0, 00.3)), url('WhatsApp\ Image\ 2025-10-28\ at\ 21.42.57_f6780cfa.jpg');
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        position: sticky;
+    }
+
+    #parant {
+        background: linear-gradient(rgba(5, 146, 54, 0.3), rgba(19, 19, 19, 0.3));
+        padding: 40px;
+        border: 1px solid rgb(163, 205, 36);
+        box-shadow: 0 0 18px 5px rgb(108, 13, 233);
+        backdrop-filter: blur(0.8px);
+        position: sticky;
+    }
+}
